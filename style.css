@@ -8,14 +8,7 @@
 }
 
     /* ---Header and Navigations-- */
-
-.header{
-    width: 100%;
-}
-.header i{
-    display: none;
-}
-.nav{
+/* .nav{
     background-position: center;
  
 }
@@ -26,7 +19,7 @@ nav{
     align-items: center;
    background-color: white;
    
-}
+} */
 nav img{
     width: 150px;
 
@@ -67,7 +60,7 @@ nav img{
          /* ---Header and Navigations end-- */
 
                    /* imageslider */
- .img-slider{
+ /* .img-slider{
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
@@ -82,22 +75,22 @@ nav img{
 .img-slider .slide{
     z-index: 1;
     position: absolute;
-    width: 100%;
+    width: 100%; */
     
        /* after entering maual navigatiion in javascript */
-    clip-path: circle(0% at 0 50%);
-}
+    /* clip-path: circle(0% at 0 50%); */
+/* } */
 
        /* after entering maual navigatiion in javascript */
 
-.img-slider .slide.active{
+/* .img-slider .slide.active{
     clip-path: circle(150% at 0 50%);
     transition: 1s;
     transition-property: clip-path;
-}
+} */
      /* after entering maual navigatiion in javascript */
 
-.img-slider .slide img{
+/* .img-slider .slide img{
     z-index: 1;
     width: 100%;
     border-radius: 5px;
@@ -110,34 +103,34 @@ nav img{
     bottom: 55px;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
-.img-slider .navigation .btn{
+/* .img-slider .navigation .btn{
     background: rgb(242, 214, 219);
     width: 16px;
     height: 16px;
     margin: 12px;
     border-radius: 50%;
     cursor: pointer;
-}
+} */
 
         /* after entering maual navigatiion in javascript */
-.img-slider .navigation .btn.active{
+/* .img-slider .navigation .btn.active{
     background: #2696E9;
     box-shadow: 0 0 2px rgba(34, 34, 34, 0.5);
-}
+} */
        /* after entering maual navigatiion in javascript */
        /* image slider ends */
 
             /* Content start */
-.grid{
+/* .grid{
     width: 100%;
     min-height: 100vh;
     display: grid;
     place-items: center;
-}       
+}        */
 
-.row{
+/* .row{
     width: 80%;
     max-width: 1170px;
     display: grid;
@@ -197,11 +190,11 @@ nav img{
     line-height: 26px;
     padding-bottom: 15px;
     text-align: justify;
-}
+} */
            /* Content end */
 
            /* Types of Matchbox starts */
-.matchbox {
+/* .matchbox {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -233,10 +226,10 @@ nav img{
 .image:hover{
   transform: translate(-1rem, -2ex);
   transition: 1s ease-out
-}
+} */
               /* Types of Matchbox ends */
 
-.testimonials{
+/* .testimonials{
     padding: 40px 0;
     background: #f1f1f1;
     color: #434343;
@@ -293,11 +286,11 @@ nav img{
                 flex: 100%;
                 max-width: 100%;
             }
-        }
+        } */
              /* MEDIA QUERY */
              /* Nav Media query */
         
- @media (min-width:280px) and (max-width:414px){
+ /* @media (min-width:280px) and (max-width:414px){
             .nav-links{
                 position: fixed;
                 background: black;
@@ -351,14 +344,12 @@ nav img{
                 text-decoration: none;
             }
           
-        }
+        } */
                /* Nav Media query Ends */
                   
 
-        /* Image Slider and Contact Us Starts */
-
+/* 
  @media (max-width:1320px){
-                 /* imageslider start */
             .img-slider{
                 width: 1000px;
                 height: 450px;
@@ -374,10 +365,6 @@ nav img{
                 height: 14px;
                 margin: 12px;
             }
-              /* imageslider end */
-
-            
-              
               .contactus{
                 width: 1000px;
                 height: 300px;
@@ -389,7 +376,6 @@ nav img{
         }
         
         @media (max-width:1024px){
-            /* imageslider start */
             .img-slider{
                 width: 800px;
                 height: 400px;
@@ -405,10 +391,7 @@ nav img{
                 width: 14px;
                 height: 14px;
                 margin: 12px;
-            }
-              /* imageslider end */
-
-                   /* Contact us start */              
+            }             
             .contactus{
                 width: 800px;
                 height: 300px;
@@ -421,7 +404,6 @@ nav img{
                 height: 35px;
                 border-radius: 9px;
             }
-                   /* Contact us end */            
         }
         @media (min-width : 821px){
             .wrapper{
@@ -431,7 +413,6 @@ nav img{
         
         @media (max-width:820px){
             
-            /* imageslider start */
             .img-slider{
                 width: 600px;
                 height: 375px;
@@ -447,10 +428,8 @@ nav img{
                 height: 10px;
                 margin: 9px;
             }
-             /* imageslider end */
 
             
-                   /* Contact us start */             
             .contactus{
                 width: 600px;
                 height: 300px;
@@ -463,11 +442,9 @@ nav img{
                 height: 30px;
                 border-radius: 7px;
             }
-                   /* Contact us end */  
         }
         
         @media (max-width:620px){
-            /* imageslider start */
             .img-slider{
                 width: 400px;
                 height: 250px;
@@ -483,10 +460,8 @@ nav img{
                 height: 8px;
                 margin: 6px;
             }
-            /* imageslider end */
 
 
-                   /* Contact us start */            
             .contactus{
                 width: 400px;
                 height: 250px;
@@ -499,11 +474,9 @@ nav img{
                 height: 25px;
                 border-radius: 5px;
             }
-                   /* Contact us end */            
         }
         
         @media (max-width:420px){
-            /* imageslider start */
 
             .img-slider{
                 width: 320px;
@@ -520,9 +493,7 @@ nav img{
                 height: 6px;
                 margin: 4px;
             }
-             /* imageslider end */
 
-                   /* Contact us start */
             .contactus{
                 width: 320px;
                 height: 200px;
@@ -535,10 +506,8 @@ nav img{
                 height: 15px;
                 border-radius: 4px;
             }
-                /* Contact us end */
         }
 @media(max-width:330px){
-          /* imageslider start */
 
           .img-slider{
             width: 280px;
@@ -555,13 +524,7 @@ nav img{
             height: 6px;
             margin: 4px;
         }
-         /* imageslider end */
 }
-
-           /* Image Slider and Contact Us Ends */
-
-
-           /* Content Starts */
 
 @media(max-width : 991px){
     .row .right .content p{
@@ -594,8 +557,7 @@ nav img{
         padding-left: 0;
     }
 }
-         /* Content Ends */
-        
+         */
 
 
 
